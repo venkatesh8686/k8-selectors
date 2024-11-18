@@ -3,16 +3,6 @@ kind: Pod
 metadata:
     name: nginx
 spec:
-  affinity:
-      nodeAffinity:
-      # hard rule
-        requiredDuringSchedulingIgnoredDuringExecution:
-          nodeSelectorTerms:
-          - matchExpressions:
-            - key: hardware
-              operator: In
-              values:
-              - gpu
     containers: 
     #docker run -d --name nginx nginx
     - name: nginx
