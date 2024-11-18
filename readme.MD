@@ -17,3 +17,6 @@ lebel node
 ---
 
 kubectl label nodes ip-192-168-13-190.ec2.interna hardware=gpu
+REF:
+https://kubernetes.io/docs/tasks/configure-pod-container/assign-pods-nodes/
+
