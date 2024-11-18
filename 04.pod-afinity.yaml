@@ -15,7 +15,7 @@ kind: Pod
 metadata:
   name: pod-2
 spec:
-   affinity:
+  affinity:
     podAffinity:
       requiredDuringSchedulingIgnoredDuringExecution:
       - labelSelector:
